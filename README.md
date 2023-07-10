@@ -4,15 +4,15 @@ This project focuses on breast cancer classification using a dataset from the Br
 ## Project Overview
 The project includes the following steps:
 
-- `Data Loading and Exploration`: The dataset is loaded using pandas and explored by examining the data types, summary statistics, and missing values.
+- **Data Loading and Exploration:** The dataset is loaded using pandas and explored by examining the data types, summary statistics, and missing values.
 
-- `Data Preprocessing`: The dataset is preprocessed by dropping unnecessary columns and encoding the diagnosis labels (benign or malignant) to numerical values.
+- **Data Preprocessing:** The dataset is preprocessed by dropping unnecessary columns and encoding the diagnosis labels (benign or malignant) to numerical values.
 
-- `Exploratory Data Analysis (EDA)`: The distributions of different features are visualized using histograms to gain insights into the data.
+- **Exploratory Data Analysis (EDA):** The distributions of different features are visualized using histograms to gain insights into the data.
 
-- `Correlation Analysis`: The correlation between features is analyzed by creating a correlation matrix and visualizing it as a heatmap.
+- **Correlation Analysis:** The correlation between features is analyzed by creating a correlation matrix and visualizing it as a heatmap.
 
-- `Model Training and Evaluation`: The dataset is split into training and testing sets. A disease classification model is defined using PyTorch, with a two-layer fully connected neural network. The model is trained on the training set using the Adam optimizer and cross-entropy loss. Finally, the trained model is evaluated on the test set to calculate the accuracy.
+- **Model Training and Evaluation:** The dataset is split into training and testing sets. A disease classification model is defined using PyTorch, with a two-layer fully connected neural network. The model is trained on the training set using the Adam optimizer and cross-entropy loss. Finally, the trained model is evaluated on the test set to calculate the accuracy.
 
 The project aims to classify breast mass images into benign or malignant cases, providing a potential tool for early breast cancer detection.
 
