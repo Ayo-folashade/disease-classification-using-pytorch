@@ -18,7 +18,7 @@ The project aims to classify breast mass images into benign or malignant cases, 
 
 ## Dependencies
 The following were used for this project:
-- Python (3.x)
+- Python
 - Pandas
 - NumPy
 - Plotly
@@ -29,7 +29,7 @@ The following were used for this project:
 The dataset used in this project is the Breast Cancer Wisconsin (Diagnostic) Data Set. It consists of 569 instances, each with 32 features and a target variable indicating the diagnosis (benign or malignant).
 
 Results
-After training the disease classification model, it achieved a test accuracy of approximately 95.6%. This indicates the model's ability to classify breast mass images into benign or malignant cases accurately.
+After training the disease classification model, it achieved a test accuracy of approximately 95.6%. This indicates the model's ability to classify breast mass images into benign or malignant cases.
 
 ## Conclusion
 Breast cancer classification plays a crucial role in early detection and effective treatment. This project demonstrates the process of building a disease classification model using machine learning techniques. By analyzing various features derived from breast mass images, the model can make accurate predictions and aid in the early detection of breast cancer.
